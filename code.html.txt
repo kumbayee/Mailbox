@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI Crypto Signal Reader - 80% Winning Predictions</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0a0f27;
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+  a {
+    color: #21d07a;
+    text-decoration: none;
+  }
+  header {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+  }
+  header p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+  }
+  .btn-primary {
+    background: #21d07a;
+    border: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #0a0f27;
+    transition: background 0.3s ease;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  .btn-primary:hover {
+    background: #16a156;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+  }
+  section.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  section.features > div {
+    background: #141a3a;
+    border-radius: 12px;
+    flex: 1 1 300px;
+    margin: 0.5rem;
+    padding: 1.8rem;
+    box-shadow: 0 0 20px rgba(33, 208, 122, 0.25);
+  }
+  section.features h2 {
+    color: #21d07a;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  section.features p {
+    font-size: 1rem;
+  }
+  section.features small {
+    display: block;
+    margin-top: 1rem;
+    color: #777;
+    font-style: italic;
+  }
+
+  .testimonials {
+    background: #121839;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 0 30px rgba(33, 208, 122, 0.3);
+  }
+  .testimonials h2 {
+    color: #21d07a;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  .testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 1.5rem;
+  }
+  .testimonial {
+    background: #1f2b55;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 15px rgba(33, 208, 122, 0.2);
+    transition: transform 0.3s ease;
+  }
+  .testimonial:hover {
+    transform: translateY(-5px);
+  }
+  .testimonial .name {
+    color: #21d07a;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .testimonial .trade-result {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: #e0e0e0;
+  }
+  .testimonial img {
+    border-radius: 8px;
+    max-width: 100%;
+    box-shadow: 0 0 10px #21d07a;
+    margin-top: auto;
+  }
+  .disclaimer {
+    background: #1a1f29;
+    border: 1px solid #21d07a;
+    color: #a0f5a3;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem 1rem 2rem;
+    color: #555;
+  }
+  .wallet-guide {
+    background: #141a3a;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    box-shadow: 0 0 25px rgba(33, 208, 122, 0.2);
+  }
+  .wallet-guide h2 {
+    color: #21d07a;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .wallet-guide ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .wallet-guide li {
+    margin: 0.8rem 0;
+  }
+
+  @media (max-width: 600px) {
+    section.features {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>AI Crypto Signal Reader</h1>
+  <p>The future of crypto trading powered by AI with 80% prediction accuracy</p>
+  <a href="https://t.me/YourOfficialAICryptoBot" target="_blank" rel="noopener" class="btn-primary" aria-label="Join AI Crypto Signal Telegram Bot">Join Our Telegram Bot</a>
+</header>
+<main>
+  <section class="features" aria-label="Key features of AI crypto signal reader">
+    <div>
+      <h2>Accurate AI Predictions</h2>
+      <p>Our advanced AI analyzes millions of market data points and historical trends to identify the best trade signals with an 80% chance of success.</p>
+      <small>*Based on historical backtesting results. Trading involves risk.</small>
+    </div>
+    <div>
+      <h2>Seamless Telegram Integration</h2>
+      <p>Receive real-time alerts directly in your Telegram app and interact with the AI-powered bot to manage your trades efficiently.</p>
+    </div>
+    <div>
+      <h2>Easy Wallet Setup</h2>
+      <p>Create a new wallet in your preferred crypto platform to start trading powered by AI signals. Our Telegram bot will guide you through the setup safely and securely.</p>
+    </div>
+  </section>
+
+  <section class="testimonials" aria-label="User testimonials and trade proof">
+    <h2>What Our Traders Say</h2>
+    <div class="testimonial-list" role="list">
+      <article class="testimonial" role="listitem" tabindex="0">
+        <div class="name">Anna K.</div>
+        <div class="trade-result">+ 25% ROI in 1 week</div>
+        <p>"The AI signals dramatically improved my trading results. I got consistent profits like never before."</p>
+        <img src="https://i.ibb.co/W0yJrJY/trade-proof1.png" alt="Screenshot of Anna's trade proof with profits" />
+      </article>
+      <article class="testimonial" role="listitem" tabindex="0">
+        <div class="name">David L.</div>
+        <div class="trade-result">+ 18% ROI in 5 days</div>
+        <p>"Highly accurate signals and the Telegram bot makes trading so much easier for me."</p>
+        <img src="https://i.ibb.co/pb1fZcX/trade-proof2.png" alt="Screenshot of David's trade proof with profits" />
+      </article>
+      <article class="testimonial" role="listitem" tabindex="0">
+        <div class="name">Maya S.</div>
+        <div class="trade-result">+ 30% ROI in 10 days</div>
+        <p>"Great experience! The AI predictions work well with my strategy and the results speak for themselves."</p>
+        <img src="https://i.ibb.co/02rzp6Y/trade-proof3.png" alt="Screenshot of Maya's trade proof with profits" />
+      </article>
+    </div>
+  </section>
+
+  <section class="wallet-guide" aria-label="Guide to setup wallet and link AI">
+    <h2>How to Start Trading Powered by AI</h2>
+    <ol>
+      <li>Create a new wallet in your favorite crypto platform or exchange (such as MetaMask, Trust Wallet, or Binance).</li>
+      <li>Keep your wallet details and seed phrase secure and NEVER share your seed phrase with anyone.</li>
+      <li>Connect with our <a href="https://t.me/YourOfficialAICryptoBot" target="_blank" rel="noopener">Telegram bot</a> for seamless AI integration and guidance.</li>
+      <li>The Telegram bot guides you through linking your wallet and starting AI-powered trading safely.</li>
+      <li>Follow the bot instructions carefully. Remember, never provide your seed phrase on websites—only use trusted, secure apps.</li>
+    </ol>
+  </section>
+
+  <div style="text-align:center;">
+    <a href="https://t.me/YourOfficialAICryptoBot" target="_blank" rel="noopener" class="btn-primary" aria-label="Join Telegram bot">Start Now on Telegram</a>
+  </div>
+
+  <section class="disclaimer" aria-label="Trading disclaimer and risk warning">
+    <strong>Disclaimer:</strong> Trading cryptocurrencies involves significant risk. Past performance is not indicative of future results. The AI predictions are based on historical data and are not guaranteed. Always trade responsibly and never invest more than you can afford to lose.
+  </section>
+</main>
+<footer>
+  &copy; 2024 AI Crypto Signal Reader. All rights reserved.
+</footer>
+</body>
+</html>
+
